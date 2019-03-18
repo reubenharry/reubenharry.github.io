@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html class="nojs" lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+<title>Social Reasoning in Arcadia – Reuben Cohn-Gordon</title>
+<meta name="created" content="2018-06-26T17:07:24&#43;0100">
+<meta name="modified" content="2018-06-26T17:07:24&#43;0100">
+
+<meta name="description" content="A tour of the Bayesian perspective on pragmatics This is an introduction to the nested reasoning models (I think that you think that I think&amp;hellip;) that I work on. I&amp;rsquo;ve tried to make this light on mathematical detail (barring the occasional technical digression) in favour of the big picture point, that Bayesian inference and nested reasoning are really great tools for thinking about language and meaning.">
+<meta property="og:site_name" content="Reuben Cohn-Gordon">
+<meta property="og:title" content="Social Reasoning in Arcadia">
+<meta property="og:url" content="https://reubenharry.github.io/blog/social-reasoning-in-arcadia/">
+<meta name="og:image" content="https://reubenharry.github.io/xdeb-org.jpg">
+<meta name="generator" content="Hugo 0.55.0-DEV" />
+<meta name="contact" content="reubencg@stanford.edu">
+<link rel="canonical" href="https://reubenharry.github.io/blog/social-reasoning-in-arcadia/">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/print.css" media="print">
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Social Reasoning in Arcadia",
+    "datePublished": "2018-06-26T17:07:24+01:00",
+    "dateModified": "2018-06-26T17:07:24+01:00",
+    "url" : "https://reubenharry.github.io/blog/social-reasoning-in-arcadia/",
+    "description": "A tour of the Bayesian perspective on pragmatics This is an introduction to the nested reasoning models (I think that you think that I think\u0026hellip;) that I work on. I\u0026rsquo;ve tried to make this light on mathematical detail (barring the occasional technical digression) in favour of the big picture point, that Bayesian inference and nested reasoning are really great tools for thinking about language and meaning.",
+    "image" : "https://reubenharry.github.io/xdeb-org.jpg",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://reubenharry.github.io"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Reuben Cohn-Gordon",
+      "url": "https://reubenharry.github.io",
+    }
+  }
+</script>
+
+</head>
+
+<body>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header" role="banner">
+
+<h1 class="header__site-name">
+<a href="/" title="Home" class="header__site-link" rel="home"><span>Reuben Cohn-Gordon</span></a>
+</h1>
+<div class="region header__region">
+
+
+</div>
+</header>
+
+
+
+
+<nav class="main-menu layout__navigation" role="navigation">
+<h2 class="visually-hidden">Main menu</h2>
+<ul class="navbar">
+<li><a class="" href="/">Home</a></li>
+<li><a class="" href="/research/">Research</a></li>
+<li><a class="active" href="/blog/">Blog</a></li>
+</ul>
+</nav>
+
+
+<main class="main layout__main" role="main">
+<h1 class="title title-submitted">Social Reasoning in Arcadia</h1>
+<article class="section-blog single-view">
+<header>
+<p class="submitted">
+<time class="modified-date" datetime="2018-06-26T17:07:24&#43;01:00">26 June, 2018</time>
+</p>
+</header>
+<div class="content">
+
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/javascript"
+  src="/webppl.js">
+</script>
+
+<script type="text/javascript"
+  src="/webppl-editor.js">
+</script>
+
+<script type="text/javascript"
+  src="/webppl-viz.js">
+</script>
+
+<p><link rel="stylesheet" href='/webppl-editor.css'></p>
+
+<p><link rel="stylesheet" href='/webppl-viz.css'></p>
+
+<h3 id="a-tour-of-the-bayesian-perspective-on-pragmatics">A tour of the Bayesian perspective on pragmatics</h3>
+
+<p>This is an introduction to the nested reasoning models (<em>I think that you think that I think&hellip;</em>) that I work on. I&rsquo;ve tried to make this light on mathematical detail (barring the occasional technical digression) in favour of the big picture point, that Bayesian inference and nested reasoning are really great tools for thinking about language and meaning.</p>
+
+<hr />
+
+<p>Picture the scene: it&rsquo;s midday in Arcadia and Echo is waiting for Narcissus to finish his lengthy beauty routine:</p>
+
+<blockquote>
+<p>Echo: Will you be done soon?</p>
+
+<p>Narcissus: Don&rsquo;t hold your breath.</p>
+</blockquote>
+
+<p>We gather from Narcissus&rsquo; response that the answer is no, but how? After all, if Echo had asked &ldquo;what is a useful piece of advice when deep sea diving&rdquo;, Narcissus&rsquo; reply would take on a totally different character. So it would seem that the meaning we infer from Narcissus&rsquo; utterance depends not only on the utterance itself, but the context in which it is said.</p>
+
+<p>Meaning, to understate the issue, is a bit of a head scratcher. We could venture to say that Narcissus&rsquo; statement has <strong>semantic</strong> content (it&rsquo;s a recommendation to not hold your breath), and meanings in different contexts (&ldquo;No I won&rsquo;t be ready any time soon.&rdquo;, &ldquo;Holding your breath is a poor way to dive.&rdquo;), which is <em>inferred</em> from the context. (Deciding what content belongs to the statement as opposed to the context is often tricky. For instance, &ldquo;don&rsquo;t hold your breath&rdquo; is an idiom in English - the meaning &ldquo;It will take a long time&rdquo; is at least somewhat baked into its semantic content.)</p>
+
+<figure >
+<img src="/img/diagram2.png"  width="747" height="211">
+</figure>
+
+
+<p>The inference to obtain this &ldquo;full&rdquo; meaning from the semantic content and context, which we make so easily, is complicated to spell out, even if a vague, informal way:</p>
+
+<blockquote>
+<p>if Narcissus had been able to answer truthfully that he would be done soon, he would have done, but he did not. Given that, and since &ldquo;Don&rsquo;t hold your breath&rdquo; is relevant advice in situations where you&rsquo;re going to have to wait a long time, it seems that Narcissus is trying to convey that he won&rsquo;t be done soon.</p>
+</blockquote>
+
+<p>The study of the semantic content belongs to the field of <em>semantics</em>, while the richer meaning derived from reasoning about the situation - the pragmatic content - is the focus of <em>pragmatics</em> (The distinction was described as follows by a student in a class I TA&rsquo;ed: <em>&ldquo;Semantics is about what things mean, and pragmatics is about what they like actually mean.&rdquo;</em>. Relatedly, I&rsquo;ve always wanted to write a philosophy paper introducing a <em>like actually</em> operator LA, such that LA(P) iff P is like actually true.). The hope is that by factoring the relation between language and the world into these two pieces, we can simplify and refine our understanding of how that relationship works.</p>
+
+<p>I want to show how we can boil down the essence of the above reasoning, and get out a paradigm for formalizing pragmatics which involves <em>nested inference</em>: an inference about another agent&rsquo;s inference. What I&rsquo;ll describe is the <a href="http://langcog.stanford.edu/papers_new/goodman-2016-tics.pdf">Rational Speech Acts (RSA)</a> paradigm, and comes from <a href="http://www.home.uni-osnabrueck.de/michfranke/Papers/Franke_PhD_thesis.pdf">previous work on game theory</a> going back to <a href="https://www.princeton.edu/~harman/Courses/PHI534-2012-13/Nov26/lewis-convention1.pdf">Lewis</a>.</p>
+
+<figure >
+<img src="/img/nested.png"  width="342" height="377">
+</figure>
+
+
+<p>My goal here is to show why the language of Bayesian probability (and in particular, recursive inference models like RSA) are the Right Tool for the Job: they neatly incorporate and generalize a logical semantics, can be <a href="http://www.problang.org/">computationally modeled</a>, <a href="https://psyarxiv.com/f9y6b/">experimentally tested</a>, <a href="https://nlp.stanford.edu/pubs/monroe2015learning.pdf">integrated with machine learning</a>, and what for my money matters most, formalize the essence of social reasoning. In short, <strong>they are for pragmatics what classical logic is for semantics</strong>.</p>
+
+<h1 id="starting-simple">Starting Simple</h1>
+
+<p>OK, so in the interest of tractability, let&rsquo;s exchange our complex example from above for something much simpler and more mundane. Our Classical couple are looking for two sheep that have wandered off from the herd (shepherding is really the only profession in Arcadia):</p>
+
+<blockquote>
+<p>Echo: Did you find both sheep?</p>
+
+<p>Narcissus: I found one of them.</p>
+</blockquote>
+
+<p>This example, or something similar, is the <em><a href="https://www.ncbi.nlm.nih.gov/pubmed/22530382">drosophila</a></em> of pragmatics: a scalar implicature. It&rsquo;s like the previous example in that the semantic and pragmatic content differ; Narcissus doesn&rsquo;t explicitly say that he didn&rsquo;t find both of them. That&rsquo;s a state of affairs compatible with his utterance. After all, if you&rsquo;ve found both, it&rsquo;s true that you&rsquo;ve found one. A logician might represent the <strong>semantic content</strong> of his utterance as</p>
+
+<p>$$ (1) \quad \exists s. found(N,s)$$</p>
+
+<p>However, if it was true that he&rsquo;d found both sheep, he would have said as much, so we can <em>infer</em> that he found one but not both. We could represent this <strong>pragmatic content</strong> as</p>
+
+<p>$$(2) \quad \exists s. found(N,s) \wedge \neg\forall s. found(N,s)$$</p>
+
+<p>Note that (1) does not logically imply (2). That is, knowing that (1) is true is not enough in itself to know that (2) is true. And yet, we do know, or at least strongly suspect (2) is the case on the basis of Narcissus&rsquo; utterance.</p>
+
+<p>So if we can&rsquo;t get from (1) to (2) by logical means, we&rsquo;ll need something else, capable of representing the counterfactual reasoning: &ldquo;since (2) is a more informative statement than (1) (on account of implying (1)), if Narcissus been in a position to say (2), he would have. But he didn&rsquo;t, so he wasn&rsquo;t.&rdquo;.</p>
+
+<p>Fortunately, this example is simple enough that we can <strong>formalize</strong> it - i.e. build a model (with nice interactive code) which captures everything we are presently interested in about it. So let&rsquo;s.</p>
+
+<h1 id="preliminaries">Preliminaries</h1>
+
+<p>We&rsquo;re going to refer to the set of all utterances as <strong>U</strong>. <strong>U</strong> represents all the things Narcissus could have said as a reply to Echo&rsquo;s question. Because this is a simple model, we&rsquo;ll replace the infinitude of possible utterances with a more modest number, 2. <strong>U</strong> = { <em>I found one of the sheep</em>, <em>I found both of the sheep</em>}.</p>
+
+<p>There&rsquo;s another set we need to consider, the set <strong>W</strong> of all possible states (i.e. things which could be the case in the world). Again, our present purposes allow us to keep this simple too</p>
+
+<ul>
+<li><em>one</em>: the state in which Narcissus has found exactly 1 sheep</li>
+<li><em>two</em>: the state in which Narcissus has found exactly 2 sheep</li>
+</ul>
+
+<p>We&rsquo;re now in a position to talk about literal meaning. In a state <em>w</em> \(\in\) <strong>W</strong>, an utterance is either true or false. For example, if Narcissus has found one sheep, so that the world state is <em>one</em>, then saying <em>I found both of the sheep</em> is untrue. He&rsquo;d be deluded or deceitful to say it.</p>
+
+<p>OK, so formally, that all means that the semantics is a <strong>relation</strong>, which is a function of type \(((U,W)\to\{\mathit{True},\mathit{False}\}\)) (we write [u](w) to mean that the thing <em>u</em> means is compatible with the world <em>w</em>). More visually, a world <em>w</em> and an utterance <em>u</em> are related if there&rsquo;s a line between them, as in the diagram below:</p>
+
+<figure >
+<img src="/img/diagram3.png"  width="750" height="328">
+</figure>
+
+
+<p>To make things a bit more interactive, here&rsquo;s some code to play with in a probabilistic programming language (<a href="https://probmods.org/">this introduction</a> uses PPLs to model cognition) which represents the semantics. Nothing probabilistic yet, but WebPPL will feature again below in a more sophisticated capacity.</p>
+
+<pre>
+var worlds = [{totalSheepFound:1},{totalSheepFound:2}]
+var utterances = [
+    "I found one of the sheep",
+    "I found both of the sheep"]
+
+var meaning = function(utterance, world){
+  (utterance === "I found one of the sheep")
+  && (world['totalSheepFound']>0)  ? true :
+  (utterance === "I found both of the sheep")
+  && (world['totalSheepFound']==2)  ? true :
+  false}
+
+meaning("I found both of the sheep",{totalSheepFound:1})
+
+</pre>
+
+<h1 id="overview-of-the-model">Overview of The Model</h1>
+
+<p>And now for the Bayesian part. We&rsquo;ll start by modeling literal interpretation, via a model I&rsquo;ll call \(L_0\), which is hardly anything more than the semantics we already have in a slightly different shape. We&rsquo;ll use \(L_0\) to build a model of production (i.e. choice of utterance given world state) called \(S_1\), which in turn we&rsquo;ll use to build our end goal, \(L_1\). \(L_1\) is a model of interpretation which accounts not just for semantic meaning, but for pragmatic meaning. We can think of \(L_1\) as a model which reasons about a speaker \(S_1\) which is itself reasoning about \(L_0\). Sorry if that&rsquo;s a bit of a mouthful. The big picture idea is that by reasoning about your interlocutor reasoning about you, you can infer extra, <em>pragmatic</em>, meaning beyond the semantic content of what you hear.</p>
+
+<figure >
+<img src="/img/diagram1.png"  width="749" height="387">
+</figure>
+
+
+<p>This image graphically represents the overview above. On the left we have the space of utterances, and on the right, the space of worlds. Models of interpretation, often called &ldquo;listeners&rdquo;, are shown as red arrows (in a precise sense discussed below) from <strong>U</strong> to <strong>W</strong>, while models of production, sometimes called &ldquo;speakers&rdquo;, are depicted as blue arrows in the opposite direction. Finally, the vertical arrow between speaker and listener models are there to suggest that the \(L_1\) is build from the \(S_1\), and the \(S_1\) from the \(L_0\).</p>
+
+<p>(Brief digression with technical hat on: for the computer scientists, there&rsquo;s a more general recursive definition: \( S_n \) is defined in terms of \( L_n\__1 \), which is defined in terms of \(S_n\__1\), and so on. \(L_0\) is the base case of the recursion, and the fix point \(L_m\) such that \(L_m\) = \(L_m\__1\) represents the ideal listener, which is closely related to the notion of a game theoretic equilibrium.)</p>
+
+<h1 id="the-literal-listener-l-0">The Literal Listener \(L_0\)</h1>
+
+<p>First of all, what type of thing is \(L_0\)? It&rsquo;s going to be a function which takes <em>u</em> \(\in\) <em>U</em> and returns a distribution over all <em>w</em> \(\in\) W. This is just a way of saying it&rsquo;s a conditional distribution \(L_0\)(w|u), but I prefer the function perspective (*<em>putting on the pointiest most arcane ivory tower shaped hat*</em>, a conditional distribution is a morphism in a very special <a href="https://plato.stanford.edu/entries/category-theory/#2">category</a> - the Kleisli category of the distribution monad - which is precisely why it makes sense to view them as arrows, and implicitly is what we&rsquo;re doing when we do probabilistic programming. If you do probabilistic programming in Haskell, then it&rsquo;s also explicitly what you&rsquo;re doing.).</p>
+
+<p>Here&rsquo;s the (simplest possible) definition of \(L_0\) (I&rsquo;m ignoring things like cost, non-uniform priors on worlds and utterances, rationality parameters - all useful, but unnecessary for deriving scalar implicatures):</p>
+
+<p>$$L0(w|u) =  \frac{[u](w)}{\sum_{w&rsquo;} [u](w&rsquo;)} $$</p>
+
+<p>If you&rsquo;re like me, this equation might seem less than helpful. Here&rsquo;s an explanation of what it actually amounts to: After hearing an utterance u, \(L_0\) thinks all worlds <em>compatible with the utterance they just heard</em> are equally likely. Here&rsquo;s code that implements the \(L_0\):</p>
+
+<pre>
+var worlds = [{totalSheepFound:1},{totalSheepFound:2}]
+var utterances = [
+    "I found one of the sheep",
+    "I found both of the sheep"]
+
+var meaning = function(utterance, world){
+  (utterance === "I found one of the sheep")
+  && (world['totalSheepFound']>0)  ? true :
+  (utterance === "I found both of the sheep")
+  && (world['totalSheepFound']==2)  ? true :
+  false}
+
+var l0 = function(utterance){
+  Infer({model: function(){
+    var world = uniformDraw(worlds);
+    condition(meaning(utterance, world))
+    return world}})}
+
+viz(l0("I found one of the sheep"))
+viz(l0("I found both of the sheep"))
+
+</pre>
+
+<p>So \(L_0\) is a simple generalization of a logical semantics. Probabilistic programming is useful for defining this sort of model, particularly when things start getting complicated. Oh, and here&rsquo;s a visualization of the \(L_0\) posterior conditional distributions:</p>
+
+<figure >
+<img src="/img/diagram4.png"  width="750" height="373">
+</figure>
+
+
+<h1 id="the-informative-speaker-s-1">The Informative Speaker \(S_1\)</h1>
+
+<p>There&rsquo;s a sense in which <em>production is the dual of interpretation</em>. A production model is a conditional distribution p(u|w); given a state, it gives a distribution over utterances. The particular production model we&rsquo;re interested in is \(S_1\), defined as:</p>
+
+<p>$$S1(u|w) = \frac{L0(w|u)}{\sum_{u&rsquo;} L0(w|u&rsquo;)}$$</p>
+
+<p>This production model&rsquo;s goal is to maximize informativity; it has some state <em>w</em> it wants to convey, and it put the most weight on the utterance <em>u</em> which gets the literal listener \(L_0\) to place the most weight on <em>w</em> after hearing u. Again, code, to make that interactive:</p>
+
+<pre>
+
+var worlds = [{totalSheepFound:1},{totalSheepFound:2}]
+var utterances = [
+    "I found one of the sheep",
+    "I found both of the sheep"]
+
+var meaning = function(utterance, world){
+  (utterance === "I found one of the sheep")
+  && (world['totalSheepFound']>0)  ? true :
+  (utterance === "I found both of the sheep")
+  && (world['totalSheepFound']==2)  ? true :
+  false}
+
+var l0 = function(utterance){
+  Infer({model: function(){
+    var world = uniformDraw(worlds);
+    condition(meaning(utterance, world))
+    return world}})}
+
+var s1 = function(world){
+  Infer({model: function(){
+    var utterance = uniformDraw(utterances)
+    factor(l0(utterance).score(world))
+    return utterance}})}
+
+viz(s1({totalSheepFound:1}))
+viz(s1({totalSheepFound:2}))
+
+</pre>
+
+<p>And a diagram of the conditional distributions:</p>
+
+<figure >
+<img src="/img/diagram5.png"  width="750" height="377">
+</figure>
+
+
+<h1 id="the-pragmatic-listener-l-1">The Pragmatic Listener \(L_1\)</h1>
+
+<p>OK, so we had a listener \(L_0\). And we had \(S_1\) thinking about \(L_0\). Now we&rsquo;re going to have \(L_1\), which is a model of a listener who thinks about \(S_1\) thinking about \(L_0\):</p>
+
+<p>$$L1(w|u) = \frac{S1(u|w)}{\sum_{w&rsquo;} S1(w&rsquo;|u)}$$</p>
+
+<p>You can think of \(L_1\) hearing an utterance <em>u</em> and asking the following question: what world state must \(S_1\) have been in to have said u. See what happens when you run the code.</p>
+
+<pre>
+
+var worlds = [{totalSheepFound:1},{totalSheepFound:2}]
+var utterances = [
+    "I found one of the sheep",
+    "I found both of the sheep"]
+
+var meaning = function(utterance, world){
+  (utterance === "I found one of the sheep")
+  && (world['totalSheepFound']>0)  ? true :
+  (utterance === "I found both of the sheep")
+  && (world['totalSheepFound']==2)  ? true :
+  false}
+
+var l0 = function(utterance){
+  Infer({model: function(){
+    var world = uniformDraw(worlds);
+    condition(meaning(utterance, world))
+    return world}})}
+
+var s1 = function(world){
+  Infer({model: function(){
+    var utterance = uniformDraw(utterances)
+    factor(l0(utterance).score(world))
+    return utterance}})}
+
+// pragmatic listener
+var l1 = function(utterance){
+  Infer({model: function(){
+    var world = uniformDraw(worlds)
+    factor(s1(world).score(utterance))
+    return world }})}
+
+viz(l1("I found one of the sheep"))
+viz(l1("I found both of the sheep"))
+
+</pre>
+
+<p>Or just see the figure below:</p>
+
+<figure >
+<img src="/img/diagram6.png"  width="750" height="376">
+</figure>
+
+
+<p>The takeaway is that \(L_1\) hears <em>I found one of the sheep</em> and <strong>infers</strong> that it&rsquo;s more likely to be the case that <em>only</em> one sheep has been found. Tada, it&rsquo;s a scalar implicature!</p>
+
+<p>So to wrap up, we&rsquo;ve seen how to model a simple type of pragmatic meaning using nested Bayesian models. This example was simple, but the core idea of <em>pragmatic phenomena arising naturally from a semantics and nested reasoning</em> is powerful. All sorts of pragmatic phenomena can be tackled with tools of this ilk, like <a href="https://web.stanford.edu/~danlass/Lassiter-Goodman-adjectival-vagueness-Synthese.pdf">vagueness</a>, <a href="https://mindmodeling.org/cogsci2014/papers/132/paper132.pdf">metaphor</a>,  <a href="http://www.pnas.org/content/111/33/12002">hyperbole</a>, <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12144">focus</a>, <a href="http://semprag.org/article/view/sp.9.20/pdf">m-implicature</a>, <a href="https://stuhlmueller.org/papers/qa-cogsci2015.pdf">questions</a>,  <a href="https://pdfs.semanticscholar.org/58e0/e256b3191603513f564acec4a984b6e8f3e1.pdf">generic language</a> and <a href="https://stanford.edu/~mtessler/papers/YoonTessler2016-cogsci.pdf">politeness</a>.</p>
+
+<p>With a logical semantics, we had a way to get from utterances to compatible world states, but no way to handle pragmatic meaning formally. By making things probabilistic, we get to do semantics and pragmatics in a unified framework: pragmatic and semantic meanings exist in the same space. That&rsquo;s good.</p>
+
+<p>Moreover, in this paradigm, pragmatic meaning arises naturally from a recursive process of inter-agent reasoning where the base case is a semantics, i.e. a conventional relationship between states of the world and utterances.</p>
+
+<p>Next time, we&rsquo;ll see that by changing <em>U</em> and <em>W</em> to represent different spaces, similar models take on a different character and can be used to model sociolinguistic phenomena.</p>
+
+<h1 id="faq-addendum">FAQ Addendum:</h1>
+
+<ol>
+<li><p><strong>Q</strong>: Why start with a literal listener, not a literal speaker? <strong>A</strong>: No reason - the other way works too. In fact, we could also start with both and do a mutual recursion. I&rsquo;m becoming increasingly convinced that this is the right thing to do.</p></li>
+
+<li><p><strong>Q</strong>: Can we add more layers above \(L_1\)? <strong>A</strong>: Yes! the more we add, the closer the model gets to making hard (i.e. non-probabilistic) decisions. See the above digression about fix points.</p></li>
+
+<li><p><strong>Q</strong>: Do we ever need more? <strong>A</strong>: Yes. But only for more complicated phenomena. For scalar implicature, this many layers does just fine.</p></li>
+
+<li><p><strong>Q</strong>: What is Bayesian probability adding here? <strong>A</strong>: there are many answers, but here&rsquo;s my favourite: in classical logic, an implication \(p\to q\) allows information to flow from p to q. But if you know the value of q, you don&rsquo;t know anything about p. The essence of Bayesian probability is precisely that if you have \(p\to q\) and you know about q, you know about p. <strong>Information flows backwards</strong>. That&rsquo;s a pretty abstract answer, but can be made precise, albeit with more technical details added. That said, there are non-probabilistic approaches available too.</p></li>
+</ol>
+
+<script>
+// find all <pre> elements and set up the editor on them
+var preEls = Array.prototype.slice.call(document.querySelectorAll("pre"));
+preEls.map(function(el) { editor.setup(el, {language: 'webppl'}); });
+</script>
+
+
+</div>
+</article>
+</main>
+
+
+
+<aside class="sidebar layout__second-sidebar" role="complementary">
+<section>
+<h4 class="menu"><a class="" href="/blog/">Blog</a></h4>
+<ul class="menu">
+<li><a class="active" href="/blog/social-reasoning-in-arcadia/">Social Reasoning in Arcadia</a></li>
+<li><a class="" href="/blog/ai-in-the-library-of-babel/">AI in the Library of Babel</a></li>
+<li><a class="" href="/blog/medieval-type-theory/">Medieval Type Theory</a></li>
+<li><a class="" href="/blog/proofs-refutations-and-zombies/">Proofs, Refutations and Zombies</a></li>
+<li><a class="" href="/blog/informativity-and-galois-connections/">Informativity and Galois Connections</a></li>
+</ul>
+</section>
+</aside>
+
+
+<footer class="footer layout__footer" role="contentinfo">
+<p><span>© Reuben Cohn-Gordon</span></p>
+
+
+</footer>
+
+</div>
+<div class="mobile-nav-wrapper hidden">
+  <div class="mobile-nav-cover"></div>
+  <a href="#navigation" class="mobile-nav-toggle" aria-haspopup="true" role="button">Menu</a>
+  <div class="mobile-nav-sheet"></div>
+</div>
+<script src="/js/jquery.slim.min.js"></script>
+
+<script src="/js/script.js"></script>
+</body>
+</html>

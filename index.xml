@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reuben Cohn-Gordon</title>
+    <link>https://reubenharry.github.io/</link>
+    <description>Recent content on Reuben Cohn-Gordon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Tue, 26 Jun 2018 17:07:24 +0100</lastBuildDate>
+    <atom:link href="https://reubenharry.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Research</title>
+      <link>https://reubenharry.github.io/research/</link>
+      <pubDate>Tue, 26 Jun 2018 17:07:24 +0100</pubDate>
+      <guid>https://reubenharry.github.io/research/</guid>
+      <description>
+
+&lt;p&gt;My current work centers around &lt;a href=&#34;https://reubenharry.github.io/blog/social-reasoning-in-arcadia/&#34;&gt;Bayesian models of pragmatics&lt;/a&gt;. I&amp;rsquo;m interested in extending them to figurative language (particularly irony and metaphor) and sociolinguistic phenomena (indexicality), as well as scaling them in computationally tractable ways to handle the complexity of natural language.&lt;/p&gt;
+
+&lt;h3 id=&#34;computational-pragmatics&#34;&gt;Computational Pragmatics&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1902.09514&#34;&gt;Lost in Machine Translation: A Method to Reduce Meaning Loss&lt;/a&gt; &lt;br/&gt; (NAACL 2019 - Cohn-Gordon and Goodman)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1804.05417&#34;&gt;Pragmatically Informative Image Captioning with Character-Level Inference&lt;/a&gt; (&lt;a href=&#34;https://reubenharry.github.io/docs/naacl_slides.pdf&#34;&gt;slides&lt;/a&gt;) &lt;br/&gt; (NAACL 2018 - Cohn-Gordon, Goodman and Potts)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1810.00367&#34;&gt;An Incremental Iterated Response Model of Pragmatics&lt;/a&gt; &lt;br/&gt; (SCiL 2019, ACL Proceedings - Cohn-Gordon, Goodman and Potts) &lt;br&gt;
+(Similar work presented at CompPrag 2018 - Cohn-Gordon and Potts)&lt;/p&gt;
+
+&lt;h3 id=&#34;social-meaning&#34;&gt;Social Meaning&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://reubenharry.github.io/docs/socialmet.pdf&#34;&gt;Modeling &amp;ldquo;Non-literal&amp;rdquo; Social Meaning with Bayesian Pragmatics&lt;/a&gt; (&lt;a href=&#34;https://reubenharry.github.io/docs/sub_slides.pdf&#34;&gt;slides&lt;/a&gt;) &lt;br/&gt;(Sinn und Bedeutung 2018 - Cohn-Gordon and Qing)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://reubenharry.github.io/docs/usecond.pdf&#34;&gt;Non-descriptive/use-conditional meaning in Rational Speech-Act models&lt;/a&gt; &lt;br/&gt; (Sinn und Bedeutung 2018 - Qing and Cohn-Gordon)&lt;/p&gt;
+
+&lt;h3 id=&#34;past-work&#34;&gt;Past Work&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://reubenharry.github.io/docs/amharic.pdf&#34;&gt;Intransitive Object Marking in Amharic&lt;/a&gt; (&lt;a href=&#34;https://reubenharry.github.io/docs/dares-and-warnings-in-amharic/&#34;&gt;description&lt;/a&gt;) &lt;br/&gt; (Presented as a &lt;a href=&#34;https://reubenharry.github.io/docs/amharicposter.pdf&#34;&gt;poster&lt;/a&gt; at LSA 2017)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://reubenharry.github.io/docs/modals.pdf&#34;&gt;Ability Modals&lt;/a&gt; (&lt;a href=&#34;https://reubenharry.github.io/docs/ability-modals/&#34;&gt;description&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://reubenharry.github.io/docs/monads.pdf&#34;&gt;Monads for NL Semantics&lt;/a&gt; (draft)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://reubenharry.github.io/docs/resultatives.pdf&#34;&gt;Resultativity in Latin&lt;/a&gt; (&lt;a href=&#34;https://reubenharry.github.io/docs/resultativity-in-latin/&#34;&gt;description&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Social Reasoning in Arcadia</title>
+      <link>https://reubenharry.github.io/blog/social-reasoning-in-arcadia/</link>
+      <pubDate>Tue, 26 Jun 2018 17:07:24 +0100</pubDate>
+      <guid>https://reubenharry.github.io/blog/social-reasoning-in-arcadia/</guid>
+      <description>
+
+&lt;script type=&#34;text/javascript&#34; async
+  src=&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML&#34;&gt;
+&lt;/script&gt;
+
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://reubenharry.github.io/webppl.js&#34;&gt;
+&lt;/script&gt;
+
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://reubenharry.github.io/webppl-editor.js&#34;&gt;
+&lt;/script&gt;
+
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://reubenharry.github.io/webppl-viz.js&#34;&gt;
+&lt;/script&gt;
+
+&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; href=&#39;https://reubenharry.github.io/webppl-editor.css&#39;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; href=&#39;https://reubenharry.github.io/webppl-viz.css&#39;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;a-tour-of-the-bayesian-perspective-on-pragmatics&#34;&gt;A tour of the Bayesian perspective on pragmatics&lt;/h3&gt;
+
+&lt;p&gt;This is an introduction to the nested reasoning models (&lt;em&gt;I think that you think that I think&amp;hellip;&lt;/em&gt;) that I work on. I&amp;rsquo;ve tried to make this light on mathematical detail (barring the occasional technical digression) in favour of the big picture point, that Bayesian inference and nested reasoning are really great tools for thinking about language and meaning.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Picture the scene: it&amp;rsquo;s midday in Arcadia and Echo is waiting for Narcissus to finish his lengthy beauty routine:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Echo: Will you be done soon?&lt;/p&gt;
+
+&lt;p&gt;Narcissus: Don&amp;rsquo;t hold your breath.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We gather from Narcissus&amp;rsquo; response that the answer is no, but how? After all, if Echo had asked &amp;ldquo;what is a useful piece of advice when deep sea diving&amp;rdquo;, Narcissus&amp;rsquo; reply would take on a totally different character. So it would seem that the meaning we infer from Narcissus&amp;rsquo; utterance depends not only on the utterance itself, but the context in which it is said.&lt;/p&gt;
+
+&lt;p&gt;Meaning, to understate the issue, is a bit of a head scratcher. We could venture to say that Narcissus&amp;rsquo; statement has &lt;strong&gt;semantic&lt;/strong&gt; content (it&amp;rsquo;s a recommendation to not hold your breath), and meanings in different contexts (&amp;ldquo;No I won&amp;rsquo;t be ready any time soon.&amp;rdquo;, &amp;ldquo;Holding your breath is a poor way to dive.&amp;rdquo;), which is &lt;em&gt;inferred&lt;/em&gt; from the context. (Deciding what content belongs to the statement as opposed to the context is often tricky. For instance, &amp;ldquo;don&amp;rsquo;t hold your breath&amp;rdquo; is an idiom in English - the meaning &amp;ldquo;It will take a long time&amp;rdquo; is at least somewhat baked into its semantic content.)&lt;/p&gt;
+
+&lt;figure &gt;
+&lt;img src=&#34;https://reubenharry.github.io/img/diagram2.png&#34;  width=&#34;747&#34; height=&#34;211&#34;&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;The inference to obtain this &amp;ldquo;full&amp;rdquo; meaning from the semantic content and context, which we make so easily, is complicated to spell out, even if a vague, informal way:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;if Narcissus had been able to answer truthfully that he would be done soon, he would have done, but he did not. Given that, and since &amp;ldquo;Don&amp;rsquo;t hold your breath&amp;rdquo; is relevant advice in situations where you&amp;rsquo;re going to have to wait a long time, it seems that Narcissus is trying to convey that he won&amp;rsquo;t be done soon.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The study of the semantic content belongs to the field of &lt;em&gt;semantics&lt;/em&gt;, while the richer meaning derived from reasoning about the situation - the pragmatic content - is the focus of &lt;em&gt;pragmatics&lt;/em&gt; (The distinction was described as follows by a student in a class I TA&amp;rsquo;ed: &lt;em&gt;&amp;ldquo;Semantics is about what things mean, and pragmatics is about what they like actually mean.&amp;rdquo;&lt;/em&gt;. Relatedly, I&amp;rsquo;ve always wanted to write a philosophy paper introducing a &lt;em&gt;like actually&lt;/em&gt; operator LA, such that LA(P) iff P is like actually true.). The hope is that by factoring the relation between language and the world into these two pieces, we can simplify and refine our understanding of how that relationship works.&lt;/p&gt;
+
+&lt;p&gt;I want to show how we can boil down the essence of the above reasoning, and get out a paradigm for formalizing pragmatics which involves &lt;em&gt;nested inference&lt;/em&gt;: an inference about another agent&amp;rsquo;s inference. What I&amp;rsquo;ll describe is the &lt;a href=&#34;http://langcog.stanford.edu/papers_new/goodman-2016-tics.pdf&#34;&gt;Rational Speech Acts (RSA)&lt;/a&gt; paradigm, and comes from &lt;a href=&#34;http://www.home.uni-osnabrueck.de/michfranke/Papers/Franke_PhD_thesis.pdf&#34;&gt;previous work on game theory&lt;/a&gt; going back to &lt;a href=&#34;https://www.princeton.edu/~harman/Courses/PHI534-2012-13/Nov26/lewis-convention1.pdf&#34;&gt;Lewis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure &gt;
+&lt;img src=&#34;https://reubenharry.github.io/img/nested.png&#34;  width=&#34;342&#34; height=&#34;377&#34;&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;My goal here is to show why the language of Bayesian probability (and in particular, recursive inference models like RSA) are the Right Tool for the Job: they neatly incorporate and generalize a logical semantics, can be &lt;a href=&#34;http://www.problang.org/&#34;&gt;computationally modeled&lt;/a&gt;, &lt;a href=&#34;https://psyarxiv.com/f9y6b/&#34;&gt;experimentally tested&lt;/a&gt;, &lt;a href=&#34;https://nlp.stanford.edu/pubs/monroe2015learning.pdf&#34;&gt;integrated with machine learning&lt;/a&gt;, and what for my money matters most, formalize the essence of social reasoning. In short, &lt;strong&gt;they are for pragmatics what classical logic is for semantics&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;starting-simple&#34;&gt;Starting Simple&lt;/h1&gt;
+
+&lt;p&gt;OK, so in the interest of tractability, let&amp;rsquo;s exchange our complex example from above for something much simpler and more mundane. Our Classical couple are looking for two sheep that have wandered off from the herd (shepherding is really the only profession in Arcadia):&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Echo: Did you find both sheep?&lt;/p&gt;
+
+&lt;p&gt;Narcissus: I found one of them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This example, or something similar, is the &lt;em&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/22530382&#34;&gt;drosophila&lt;/a&gt;&lt;/em&gt; of pragmatics: a scalar implicature. It&amp;rsquo;s like the previous example in that the semantic and pragmatic content differ; Narcissus doesn&amp;rsquo;t explicitly say that he didn&amp;rsquo;t find both of them. That&amp;rsquo;s a state of affairs compatible with his utterance. After all, if you&amp;rsquo;ve found both, it&amp;rsquo;s true that you&amp;rsquo;ve found one. A logician might represent the &lt;strong&gt;semantic content&lt;/strong&gt; of his utterance as&lt;/p&gt;
+
+&lt;p&gt;$$ (1) \quad \exists s. found(N,s)$$&lt;/p&gt;
+
+&lt;p&gt;However, if it was true that he&amp;rsquo;d found both sheep, he would have said as much, so we can &lt;em&gt;infer&lt;/em&gt; that he found one but not both. We could represent this &lt;strong&gt;pragmatic content&lt;/strong&gt; as&lt;/p&gt;
+
+&lt;p&gt;$$(2) \quad \exists s. found(N,s) \wedge \neg\forall s. found(N,s)$$&lt;/p&gt;
+
+&lt;p&gt;Note that (1) does not logically imply (2). That is, knowing that (1) is true is not enough in itself to know that (2) is true. And yet, we do know, or at least strongly suspect (2) is the case on the basis of Narcissus&amp;rsquo; utterance.&lt;/p&gt;
+
+&lt;p&gt;So if we can&amp;rsquo;t get from (1) to (2) by logical means, we&amp;rsquo;ll need something else, capable of representing the counterfactual reasoning: &amp;ldquo;since (2) is a more informative statement than (1) (on account of implying (1)), if Narcissus been in a position to say (2), he would have. But he didn&amp;rsquo;t, so he wasn&amp;rsquo;t.&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, this example is simple enough that we can &lt;strong&gt;formalize&lt;/strong&gt; it - i.e. build a model (with nice interactive code) which captures everything we are presently interested in about it. So let&amp;rsquo;s.&lt;/p&gt;
+
+&lt;h1 id=&#34;preliminaries&#34;&gt;Preliminaries&lt;/h1&gt;
+
+&lt;p&gt;We&amp;rsquo;re going to refer to the set of all utterances as &lt;strong&gt;U&lt;/strong&gt;. &lt;strong&gt;U&lt;/strong&gt; represents all the things Narcissus could have said as a reply to Echo&amp;rsquo;s question. Because this is a simple model, we&amp;rsquo;ll replace the infinitude of possible utterances with a more modest number, 2. &lt;strong&gt;U&lt;/strong&gt; = { &lt;em&gt;I found one of the sheep&lt;/em&gt;, &lt;em&gt;I found both of the sheep&lt;/em&gt;}.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s another set we need to consider, the set &lt;strong&gt;W&lt;/strong&gt; of all possible states (i.e. things which could be the case in the world). Again, our present purposes allow us to keep this simple too&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;one&lt;/em&gt;: the state in which Narcissus has found exactly 1 sheep&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;two&lt;/em&gt;: the state in which Narcissus has found exactly 2 sheep&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We&amp;rsquo;re now in a position to talk about literal meaning. In a state &lt;em&gt;w&lt;/em&gt; \(\in\) &lt;strong&gt;W&lt;/strong&gt;, an utterance is either true or false. For example, if Narcissus has found one sheep, so that the world state is &lt;em&gt;one&lt;/em&gt;, then saying &lt;em&gt;I found both of the sheep&lt;/em&gt; is untrue. He&amp;rsquo;d be deluded or deceitful to say it.&lt;/p&gt;
+
+&lt;p&gt;OK, so formally, that all means that the semantics is a &lt;strong&gt;relation&lt;/strong&gt;, which is a function of type \(((U,W)\to\{\mathit{True},\mathit{False}\}\)) (we write [u](w) to mean that the thing &lt;em&gt;u&lt;/em&gt; means is compatible with the world &lt;em&gt;w&lt;/em&gt;). More visually, a world &lt;em&gt;w&lt;/em&gt; and an utterance &lt;em&gt;u&lt;/em&gt; are related if there&amp;rsquo;s a line between them, as in the diagram below:&lt;/p&gt;
+
+&lt;figure &gt;
+&lt;img src=&#34;https://reubenharry.github.io/img/diagram3.png&#34;  width=&#34;750&#34; height=&#34;328&#34;&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;To make things a bit more interactive, here&amp;rsquo;s some code to play with in a probabilistic programming language (&lt;a href=&#34;https://probmods.org/&#34;&gt;this introduction&lt;/a&gt; uses PPLs to model cognition) which represents the semantics. Nothing probabilistic yet, but WebPPL will feature again below in a more sophisticated capacity.&lt;/p&gt;
+
+&lt;pre&gt;
+var worlds = [{totalSheepFound:1},{totalSheepFound:2}]
+var utterances = [
+    &#34;I found one of the sheep&#34;,
+    &#34;I found both of the sheep&#34;]
+
+var meaning = function(utterance, world){
+  (utterance === &#34;I found one of the sheep&#34;)
+  &amp;&amp; (world[&#39;totalSheepFound&#39;]&gt;0)  ? true :
+  (utterance === &#34;I found both of the sheep&#34;)
+  &amp;&amp; (world[&#39;totalSheepFound&#39;]==2)  ? true :
+  false}
+
+meaning(&#34;I found both of the sheep&#34;,{totalSheepFound:1})
+
+&lt;/pre&gt;
+
+&lt;h1 id=&#34;overview-of-the-model&#34;&gt;Overview of The Model&lt;/h1&gt;
+
+&lt;p&gt;And now for the Bayesian part. We&amp;rsquo;ll start by modeling literal interpretation, via a model I&amp;rsquo;ll call \(L_0\), which is hardly anything more than the semantics we already have in a slightly different shape. We&amp;rsquo;ll use \(L_0\) to build a model of production (i.e. choice of utterance given world state) called \(S_1\), which in turn we&amp;rsquo;ll use to build our end goal, \(L_1\). \(L_1\) is a model of interpretation which accounts not just for semantic meaning, but for pragmatic meaning. We can think of \(L_1\) as a model which reasons about a speaker \(S_1\) which is itself reasoning about \(L_0\). Sorry if that&amp;rsquo;s a bit of a mouthful. The big picture idea is that by reasoning about your interlocutor reasoning about you, you can infer extra, &lt;em&gt;pragmatic&lt;/em&gt;, meaning beyond the semantic content of what you hear.&lt;/p&gt;
+
+&lt;figure &gt;
+&lt;img src=&#34;https://reubenharry.github.io/img/diagram1.png&#34;  width=&#34;749&#34; height=&#34;387&#34;&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;This image graphically represents the overview above. On the left we have the space of utterances, and on the right, the space of worlds. Models of interpretation, often called &amp;ldquo;listeners&amp;rdquo;, are shown as red arrows (in a precise sense discussed below) from &lt;strong&gt;U&lt;/strong&gt; to &lt;strong&gt;W&lt;/strong&gt;, while models of production, sometimes called &amp;ldquo;speakers&amp;rdquo;, are depicted as blue arrows in the opposite direction. Finally, the vertical arrow between speaker and listener models are there to suggest that the \(L_1\) is build from the \(S_1\), and the \(S_1\) from the \(L_0\).&lt;/p&gt;
+
+&lt;p&gt;(Brief digression with technical hat on: for the computer scientists, there&amp;rsquo;s a more general recursive definition: \( S_n \) is defined in terms of \( L_n\__1 \), which is defined in terms of \(S_n\__1\), and so on. \(L_0\) is the base case of the recursion, and the fix point \(L_m\) such that \(L_m\) = \(L_m\__1\) represents the ideal listener, which is closely related to the notion of a game theoretic equilibrium.)&lt;/p&gt;
+
+&lt;h1 id=&#34;the-literal-listener-l-0&#34;&gt;The Literal Listener \(L_0\)&lt;/h1&gt;
+
+&lt;p&gt;First of all, what type of thing is \(L_0\)? It&amp;rsquo;s going to be a function which takes &lt;em&gt;u&lt;/em&gt; \(\in\) &lt;em&gt;U&lt;/em&gt; and returns a distribution over all &lt;em&gt;w&lt;/em&gt; \(\in\) W. This is just a way of saying it&amp;rsquo;s a conditional distribution \(L_0\)(w|u), but I prefer the function perspective (*&lt;em&gt;putting on the pointiest most arcane ivory tower shaped hat*&lt;/em&gt;, a conditional distribution is a morphism in a very special &lt;a href=&#34;https://plato.stanford.edu/entries/category-theory/#2&#34;&gt;category&lt;/a&gt; - the Kleisli category of the distribution monad - which is precisely why it makes sense to view them as arrows, and implicitly is what we&amp;rsquo;re doing when we do probabilistic programming. If you do probabilistic programming in Haskell, then it&amp;rsquo;s also explicitly what you&amp;rsquo;re doing.).&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the (simplest possible) definition of \(L_0\) (I&amp;rsquo;m ignoring things like cost, non-uniform priors on worlds and utterances, rationality parameters - all useful, but unnecessary for deriving scalar implicatures):&lt;/p&gt;
+
+&lt;p&gt;$$L0(w|u) =  \frac{[u](w)}{\sum_{w&amp;rsquo;} [u](w&amp;rsquo;)} $$&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re like me, this equation might seem less than helpful. Here&amp;rsquo;s an explanation of what it actually amounts to: After hearing an utterance u, \(L_0\) thinks all worlds &lt;em&gt;compatible with the utterance they just heard&lt;/em&gt; are equally likely. Here&amp;rsquo;s code that implements the \(L_0\):&lt;/p&gt;
+
+&lt;pre&gt;
+var worlds = [{totalSheepFound:1},{totalSheepFound:2}]
+var utterances = [
+    &#34;I found one of the sheep&#34;,
+    &#34;I found both of the sheep&#34;]
+
+var meaning = function(utterance, world){
+  (utterance === &#34;I found one of the sheep&#34;)
+  &amp;&amp; (world[&#39;totalSheepFound&#39;]&gt;0)  ? true :
+  (utterance === &#34;I found both of the sheep&#34;)
+  &amp;&amp; (world[&#39;totalSheepFound&#39;]==2)  ? true :
+  false}
+
+var l0 = function(utterance){
+  Infer({model: function(){
+    var world = uniformDraw(worlds);
+    condition(meaning(utterance, world))
+    return world}})}
+
+viz(l0(&#34;I found one of the sheep&#34;))
+viz(l0(&#34;I found both of the sheep&#34;))
+
+&lt;/pre&gt;
+
+&lt;p&gt;So \(L_0\) is a simple generalization of a logical semantics. Probabilistic programming is useful for defining this sort of model, particularly when things start getting complicated. Oh, and here&amp;rsquo;s a visualization of the \(L_0\) posterior conditional distributions:&lt;/p&gt;
+
+&lt;figure &gt;
+&lt;img src=&#34;https://reubenharry.github.io/img/diagram4.png&#34;  width=&#34;750&#34; height=&#34;373&#34;&gt;
+&lt;/figure&gt;
+
+
+&lt;h1 id=&#34;the-informative-speaker-s-1&#34;&gt;The Informative Speaker \(S_1\)&lt;/h1&gt;
+
+&lt;p&gt;There&amp;rsquo;s a sense in which &lt;em&gt;production is the dual of interpretation&lt;/em&gt;. A production model is a conditional distribution p(u|w); given a state, it gives a distribution over utterances. The particular production model we&amp;rsquo;re interested in is \(S_1\), defined as:&lt;/p&gt;
+
+&lt;p&gt;$$S1(u|w) = \frac{L0(w|u)}{\sum_{u&amp;rsquo;} L0(w|u&amp;rsquo;)}$$&lt;/p&gt;
+
+&lt;p&gt;This production model&amp;rsquo;s goal is to maximize informativity; it has some state &lt;em&gt;w&lt;/em&gt; it wants to convey, and it put the most weight on the utterance &lt;em&gt;u&lt;/em&gt; which gets the literal listener \(L_0\) to place the most weight on &lt;em&gt;w&lt;/em&gt; after hearing u. Again, code, to make that interactive:&lt;/p&gt;
+
+&lt;pre&gt;
+
+var worlds = [{totalSheepFound:1},{totalSheepFound:2}]
+var utterances = [
+    &#34;I found one of the sheep&#34;,
+    &#34;I found both of the sheep&#34;]
+
+var meaning = function(utterance, world){
+  (utterance === &#34;I found one of the sheep&#34;)
+  &amp;&amp; (world[&#39;totalSheepFound&#39;]&gt;0)  ? true :
+  (utterance === &#34;I found both of the sheep&#34;)
+  &amp;&amp; (world[&#39;totalSheepFound&#39;]==2)  ? true :
+  false}
+
+var l0 = function(utterance){
+  Infer({model: function(){
+    var world = uniformDraw(worlds);
+    condition(meaning(utterance, world))
+    return world}})}
+
+var s1 = function(world){
+  Infer({model: function(){
+    var utterance = uniformDraw(utterances)
+    factor(l0(utterance).score(world))
+    return utterance}})}
+
+viz(s1({totalSheepFound:1}))
+viz(s1({totalSheepFound:2}))
+
+&lt;/pre&gt;
+
+&lt;p&gt;And a diagram of the conditional distributions:&lt;/p&gt;
+
+&lt;figure &gt;
+&lt;img src=&#34;https://reubenharry.github.io/img/diagram5.png&#34;  width=&#34;750&#34; height=&#34;377&#34;&gt;
+&lt;/figure&gt;
+
+
+&lt;h1 id=&#34;the-pragmatic-listener-l-1&#34;&gt;The Pragmatic Listener \(L_1\)&lt;/h1&gt;
+
+&lt;p&gt;OK, so we had a listener \(L_0\). And we had \(S_1\) thinking about \(L_0\). Now we&amp;rsquo;re going to have \(L_1\), which is a model of a listener who thinks about \(S_1\) thinking about \(L_0\):&lt;/p&gt;
+
+&lt;p&gt;$$L1(w|u) = \frac{S1(u|w)}{\sum_{w&amp;rsquo;} S1(w&amp;rsquo;|u)}$$&lt;/p&gt;
+
+&lt;p&gt;You can think of \(L_1\) hearing an utterance &lt;em&gt;u&lt;/em&gt; and asking the following question: what world state must \(S_1\) have been in to have said u. See what happens when you run the code.&lt;/p&gt;
+
+&lt;pre&gt;
+
+var worlds = [{totalSheepFound:1},{totalSheepFound:2}]
+var utterances = [
+    &#34;I found one of the sheep&#34;,
+    &#34;I found both of the sheep&#34;]
+
+var meaning = function(utterance, world){
+  (utterance === &#34;I found one of the sheep&#34;)
+  &amp;&amp; (world[&#39;totalSheepFound&#39;]&gt;0)  ? true :
+  (utterance === &#34;I found both of the sheep&#34;)
+  &amp;&amp; (world[&#39;totalSheepFound&#39;]==2)  ? true :
+  false}
+
+var l0 = function(utterance){
+  Infer({model: function(){
+    var world = uniformDraw(worlds);
+    condition(meaning(utterance, world))
+    return world}})}
+
+var s1 = function(world){
+  Infer({model: function(){
+    var utterance = uniformDraw(utterances)
+    factor(l0(utterance).score(world))
+    return utterance}})}
+
+// pragmatic listener
+var l1 = function(utterance){
+  Infer({model: function(){
+    var world = uniformDraw(worlds)
+    factor(s1(world).score(utterance))
+    return world }})}
+
+viz(l1(&#34;I found one of the sheep&#34;))
+viz(l1(&#34;I found both of the sheep&#34;))
+
+&lt;/pre&gt;
+
+&lt;p&gt;Or just see the figure below:&lt;/p&gt;
+
+&lt;figure &gt;
+&lt;img src=&#34;https://reubenharry.github.io/img/diagram6.png&#34;  width=&#34;750&#34; height=&#34;376&#34;&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;The takeaway is that \(L_1\) hears &lt;em&gt;I found one of the sheep&lt;/em&gt; and &lt;strong&gt;infers&lt;/strong&gt; that it&amp;rsquo;s more likely to be the case that &lt;em&gt;only&lt;/em&gt; one sheep has been found. Tada, it&amp;rsquo;s a scalar implicature!&lt;/p&gt;
+
+&lt;p&gt;So to wrap up, we&amp;rsquo;ve seen how to model a simple type of pragmatic meaning using nested Bayesian models. This example was simple, but the core idea of &lt;em&gt;pragmatic phenomena arising naturally from a semantics and nested reasoning&lt;/em&gt; is powerful. All sorts of pragmatic phenomena can be tackled with tools of this ilk, like &lt;a href=&#34;https://web.stanford.edu/~danlass/Lassiter-Goodman-adjectival-vagueness-Synthese.pdf&#34;&gt;vagueness&lt;/a&gt;, &lt;a href=&#34;https://mindmodeling.org/cogsci2014/papers/132/paper132.pdf&#34;&gt;metaphor&lt;/a&gt;,  &lt;a href=&#34;http://www.pnas.org/content/111/33/12002&#34;&gt;hyperbole&lt;/a&gt;, &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12144&#34;&gt;focus&lt;/a&gt;, &lt;a href=&#34;http://semprag.org/article/view/sp.9.20/pdf&#34;&gt;m-implicature&lt;/a&gt;, &lt;a href=&#34;https://stuhlmueller.org/papers/qa-cogsci2015.pdf&#34;&gt;questions&lt;/a&gt;,  &lt;a href=&#34;https://pdfs.semanticscholar.org/58e0/e256b3191603513f564acec4a984b6e8f3e1.pdf&#34;&gt;generic language&lt;/a&gt; and &lt;a href=&#34;https://stanford.edu/~mtessler/papers/YoonTessler2016-cogsci.pdf&#34;&gt;politeness&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;With a logical semantics, we had a way to get from utterances to compatible world states, but no way to handle pragmatic meaning formally. By making things probabilistic, we get to do semantics and pragmatics in a unified framework: pragmatic and semantic meanings exist in the same space. That&amp;rsquo;s good.&lt;/p&gt;
+
+&lt;p&gt;Moreover, in this paradigm, pragmatic meaning arises naturally from a recursive process of inter-agent reasoning where the base case is a semantics, i.e. a conventional relationship between states of the world and utterances.&lt;/p&gt;
+
+&lt;p&gt;Next time, we&amp;rsquo;ll see that by changing &lt;em&gt;U&lt;/em&gt; and &lt;em&gt;W&lt;/em&gt; to represent different spaces, similar models take on a different character and can be used to model sociolinguistic phenomena.&lt;/p&gt;
+
+&lt;h1 id=&#34;faq-addendum&#34;&gt;FAQ Addendum:&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Why start with a literal listener, not a literal speaker? &lt;strong&gt;A&lt;/strong&gt;: No reason - the other way works too. In fact, we could also start with both and do a mutual recursion. I&amp;rsquo;m becoming increasingly convinced that this is the right thing to do.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Can we add more layers above \(L_1\)? &lt;strong&gt;A&lt;/strong&gt;: Yes! the more we add, the closer the model gets to making hard (i.e. non-probabilistic) decisions. See the above digression about fix points.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Do we ever need more? &lt;strong&gt;A&lt;/strong&gt;: Yes. But only for more complicated phenomena. For scalar implicature, this many layers does just fine.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: What is Bayesian probability adding here? &lt;strong&gt;A&lt;/strong&gt;: there are many answers, but here&amp;rsquo;s my favourite: in classical logic, an implication \(p\to q\) allows information to flow from p to q. But if you know the value of q, you don&amp;rsquo;t know anything about p. The essence of Bayesian probability is precisely that if you have \(p\to q\) and you know about q, you know about p. &lt;strong&gt;Information flows backwards&lt;/strong&gt;. That&amp;rsquo;s a pretty abstract answer, but can be made precise, albeit with more technical details added. That said, there are non-probabilistic approaches available too.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script&gt;
+// find all &lt;pre&gt; elements and set up the editor on them
+var preEls = Array.prototype.slice.call(document.querySelectorAll(&#34;pre&#34;));
+preEls.map(function(el) { editor.setup(el, {language: &#39;webppl&#39;}); });
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AI in the Library of Babel</title>
+      <link>https://reubenharry.github.io/blog/ai-in-the-library-of-babel/</link>
+      <pubDate>Thu, 03 May 2018 10:42:56 +0200</pubDate>
+      <guid>https://reubenharry.github.io/blog/ai-in-the-library-of-babel/</guid>
+      <description>
+
+&lt;!-- almost as ludicrous as it would be to search the gene space for organisms...(ellipsis for effect) --&gt;
+
+&lt;!-- the quest in mathematical logic to search the space of logical formulae for ones which mean true things: this is [provably](Gödel, Escher, Bach) impossible in suitably interesting settings. --&gt;
+
+&lt;!-- ``The late great evolutionary theorist Geogre Williams insisted that it was a mistake to identify genes with DNA molecules. That would be approximately the same mistake as thinking that Hamlet is made out of ink....Genes, as reciples for making proteins, are also abstract, informational things...&#39;&#39; Intuition pump to prove the point: digital meiosis. dennett then notes that sperm motility wouldn&#39;t be selected for here. the dangers of mut. mut. --&gt;
+
+&lt;!-- the mistake the arises from borgesification: --&gt;
+
+&lt;!-- Some people said that what science showed was that nothing was really solid, solidity was an illusion, but Eddington knew better than to go that far. Some people have said that color is an illusion. Is it? Electromagnetic radiation in the narrow range that accounts for human vision (the range in between infrared and ultraviolet) is not made of little colored things, and atoms, even gold atoms, aren&#39;t colored. But still, color is not an illusion in the sense that natters: nobody thinks Sony is lying when it says that its color televisions really show the world of color, or that Sherwin-Williams should be sued fro fraud for selling us many different colors in the form of paint. How about dollars? These days the vast majority of them aren&#39;t made of silver or even paper. They are virtual, made of information, not material, just like poems and promises. Does that mean that they are an illusion? No, but don&#39;t hunt for them anong the molecules --&gt;
+
+&lt;!-- in borges&#39; story, there is an example of shifting context to dislodge meanings from their strings: --&gt;
+
+&lt;!-- but there&#39;s more, because this example is like in the real world but way too extreme (there&#39;s no real library) --&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Every block of stone has a statue inside it and it is the task of the sculptor to discover it.&amp;rdquo; - Michelangelo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Borges inhabits a genre you could describe as ironic realism. His stories are liberally sprinkled with a trope where he takes some abstraction of his choice and makes it parochially literal in a deliberately absurd way. In the spirit of making up unwieldy words, I&amp;rsquo;ll call it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;borgesification&lt;/em&gt;: the act of taking an abstract concept literally.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For instance, I could imagine him writing a story in which the clearly figurative Michelangelo quote above is interpreted literally and sculptors spend their careers searching for certain blocks of stone which they think contain the desired statues. Here, Borges would be &lt;em&gt;borgesifying&lt;/em&gt; the idea of creativity as a search, on which more (not very much) later.&lt;/p&gt;
+
+&lt;p&gt;But instead of an imaginary short story (though I&amp;rsquo;m sure Borges would appreciate that concept), I&amp;rsquo;ll give an example of borgesification in one of his actual ones, &lt;em&gt;The Library of Babel&lt;/em&gt;. Since meaning is the intersection of artificial intelligence and linguistics that I personally care about, I can&amp;rsquo;t help extrapolating some morals from it.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-library-of-babel&#34;&gt;The Library of Babel&lt;/h2&gt;
+
+&lt;p&gt;In Borges&amp;rsquo; short story &lt;em&gt;The Library of Babel&lt;/em&gt;, all books exist, present in an enormous library which constitutes the known world. Every possible combination of symbols (up to some length n) seems to be present in some book somewhere.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Everything: the minutely detailed history of the future&amp;hellip;the translation of every book in all languages&amp;hellip;the treatise that Bede could have written (and did not) about the mythology of the Saxons&amp;hellip;&amp;ldquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Librarians search for truth by physically searching the library for the book that contains it. They spend their lives traveling through the library, occasionally stumbling on interpretable phrases.&lt;/p&gt;
+
+&lt;p&gt;This conceit is obviously pretty absurd, but what exactly is being &lt;em&gt;borgesified&lt;/em&gt;? To answer that, a brief detour&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;creativity-as-search&#34;&gt;Creativity as Search&lt;/h2&gt;
+
+&lt;p&gt;One of the really old ideas in AI is that creativity is just search in the appropriate search space.&lt;/p&gt;
+
+&lt;p&gt;This applies both to problems that have an obvious search-like element (e.g. planning a route from 2 points that your roomba should take) but also creative tasks like writing a novel: there&amp;rsquo;s a space of possible ways your novel could be, and &lt;em&gt;all you have to do&lt;/em&gt; is to find the right one. Another example further afield, from Greek poet Seferis, which mirrors the Michelangelo quote above.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;all poems written or unwritten exist&amp;hellip;The special ability of the poet is to see them.&amp;rdquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Creativity as search&lt;/em&gt; goes hand in hand with the quest in AI (and philosophy, for that matter) to find appropriate representations.&lt;/p&gt;
+
+&lt;p&gt;For example, consider the task of image generation from sentences. Machine learning has yielded a modicum of success at this &lt;a href=&#34;https://arxiv.org/abs/1804.01622&#34;&gt;task&lt;/a&gt;: you provide a sentence describing a scene, like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;A sheep by another sheep standing on the grass with sky above and a boat in the ocean by a tree behind the sheep&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and get a picture in return. Here&amp;rsquo;s a real example generated by a computer from that sentence. Blurry but pretty amazing when you think about what the computer had to understand to do this:&lt;/p&gt;
+
+&lt;figure &gt;
+&lt;img src=&#34;https://reubenharry.github.io/img/sheep.png&#34;  width=&#34;750&#34; height=&#34;78&#34;&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Thinking about this task as a search problem, there&amp;rsquo;s a space of possible images, and the task is finding the right one for the sentence.&lt;/p&gt;
+
+&lt;p&gt;But intuitively, it would seem crazy to consider every combination of however many pixels make up this image. Instead, we want to consider different &lt;em&gt;scenes&lt;/em&gt;, which aren&amp;rsquo;t made of pixels, so much as objects and their relations.&lt;/p&gt;
+
+&lt;p&gt;In other words, it seems like we should be searching through scene space, not pixel space. (I haven&amp;rsquo;t discussed that algorithm that actually produced the above picture - I&amp;rsquo;ll save that for another time.)&lt;/p&gt;
+
+&lt;h2 id=&#34;creativity-as-search-borgesified&#34;&gt;&lt;em&gt;Creativity as Search&lt;/em&gt; Borgesified&lt;/h2&gt;
+
+&lt;p&gt;Returning now to the story of the library, we now have the tools to describe the borgesification in more detail.&lt;/p&gt;
+
+&lt;p&gt;Borges has taken the idea that creativity is a form of search and interpreted it in the most literal way possible, so that the librarians search not the space of possible meanings, but the space of possible strings.&lt;/p&gt;
+
+&lt;!-- The fallacy inherent in this conceit is somewhat obvious, but instructive to spell out:  --&gt;
+
+&lt;!-- A string of characters is not the same as the meaning you might obtain by interpreting that string according to any particular language. (Note how Borges blurs this distinction already by referring to particular strings of characters by their interpretations, e.g. a counterfactual treatise written by Bede.) --&gt;
+
+&lt;p&gt;Because the librarians believe that meaning &lt;em&gt;inheres&lt;/em&gt; in the library&amp;rsquo;s books, they try to answer questions about the world by searching over the space of strings, rather than the space of ideas that those strings might, interpreted in some language, represent.&lt;/p&gt;
+
+&lt;p&gt;Moreover, they believe that the books &lt;em&gt;mean&lt;/em&gt; things when interpreted in their language, even though there&amp;rsquo;s no reason to reject the null hypothesis that they&amp;rsquo;re just random.&lt;/p&gt;
+
+&lt;!-- Forget thinking about clever proofs - to find the answer to Fermat&#39;s last theorem, just find the book it&#39;s written in. To write the most beautiful song in the world, just pick it out from the space of possibilities. --&gt;
+
+&lt;!-- (Imputing meaning to a text seems reasonable in general: when I look at a book consisting of strings of characters, it&#39;s not weird that I learn something about the world by interpreting those characters according to the rules of English. --&gt;
+
+&lt;!-- But when that book is just one of the totality of possible combinations of symbols in an endless library, the belief that you can learn things about in any particular language ) --&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://en.wiktionary.org/wiki/locus_classicus&#34;&gt;locus classicus&lt;/a&gt; of smart thinking about form, meaning and intelligence is Douglas Hofstadter&amp;rsquo;s &lt;em&gt;Gödel, Escher, Bach&lt;/em&gt; which makes a point precisely on these lines:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;people often attribute meaning to words in themselves, without being in the slighest aware of the very complex &amp;ldquo;isomorphism&amp;rdquo; that imbues them with meanings. This is an easy enough error to make. It attributes all the meaning to the object (the word), rather than to the link between that object and the real world.&amp;ldquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In a way, Douglas Hofstadter&amp;rsquo;s whole thesis in &lt;em&gt;Gödel, Escher, Bach&lt;/em&gt; revolves around these level slips between meaning and form, construed both as a feature and a bug of cognition.&lt;/p&gt;
+
+&lt;!-- Someone sensible who lived in the library would never reject the null hypothesis that no interpretation of the library&#39;s books gives you any information about anything in the world. Borges, in typical fashion, introduces this reasonable and correct belief as the position of radicals: --&gt;
+
+&lt;!-- &gt; &#34;(I know of an uncouth region whose librarians repudiate the vain and superstitious custom of finding a meaning in books and equate it with that of finding a meaning in dreams or in the chaotic lines of one&#39;s palm... They admit that the inventors of this writing imitated the twenty-five natural symbols, but maintain that this application is accidental and that the books signify nothing in themselves.)&#34; --&gt;
+
+&lt;!-- or learning to code by memorizing muscle movements corresponding to successful programs.  --&gt;
+
+&lt;p&gt;Here&amp;rsquo;s another example of a similar borgesification, outside of Borges&amp;rsquo; writing: at one point in Lemony Snicket&amp;rsquo;s superb &lt;em&gt;A Series of Unfortunate Events&lt;/em&gt;, Klaus has to open a door by entered a passcode. He&amp;rsquo;s told this code is the sentence describing the central theme of Anna Karenina and accordingly enters the following words&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;a rural life of moral simplicity, despite its monotony, is the preferable personal narrative to a daring life of impulsive passion, which only leads to tragedy.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And the door opens. This is absurd because you could never expect someone to enter that exact sequence given the prompt: there might be one moral of the book, but there are countless strings of words which represent that moral. In other words, there might be a unique answer in concept space, but not in string space.&lt;/p&gt;
+
+&lt;p&gt;Only in a world where symbols were somehow inseparable from their meanings could this security system be expected to work.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-superficial-moral&#34;&gt;The superficial moral&lt;/h2&gt;
+
+&lt;p&gt;The mistake made by Borges&amp;rsquo; librarians is one often thought to be made for real in AI systems.&lt;/p&gt;
+
+&lt;p&gt;Critics of connectionism and now more modern statistical methods for translation, image recognition, dialogue generation, chess playing and so on level that these systems, which are learnt by fitting models to huge amounts of data, aren&amp;rsquo;t engaging with meaning. Or to put it another way, they don&amp;rsquo;t incorporate the right sort of representation. (Criticisms of this nature date back at least to the push back against behaviorism in both cognitive science and AI - see Marr&amp;rsquo;s levels, Chomsky&amp;rsquo;s performance-competence distinction).&lt;/p&gt;
+
+&lt;p&gt;This perceived intensional failing is usually translated into an extensional prediction: that AI needs something more to pass the Turing test.&lt;/p&gt;
+
+&lt;p&gt;For instance, &lt;a href=&#34;http://rocknrollnerd.github.io/ml/2015/05/27/leopard-sofa.html&#34;&gt;this well-known article&lt;/a&gt; nicely illustrates a failure mode of statistical image recognition where a leopard skin couch is recognized as a leopard. The problem seems to be that the decision process for leopard-hood used by the statistical classifier has no abstract representation of 3D shape.&lt;/p&gt;
+
+&lt;p&gt;Another example is &lt;a href=&#34;https://en.wikipedia.org/wiki/Winograd_Schema_Challenge&#34;&gt;Winograd schemas&lt;/a&gt;, on which front I&amp;rsquo;ll defer to wikipedia, pointing out just that the pattern is the same: there&amp;rsquo;s a claimed extensional failing of systems that don&amp;rsquo;t &amp;ldquo;understand&amp;rdquo; language from a perceived intensional failing: lack of a semantics.&lt;/p&gt;
+
+&lt;p&gt;So you might be tempted to agree with the following version of Klaus from one of the library of Babel&amp;rsquo;s variations on &lt;em&gt;A Series of Unfortunate Events&lt;/em&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Klaus: the moral of &lt;em&gt;The Library of Babel&lt;/em&gt; is that an algorithm which doesn&amp;rsquo;t take into account the appropriate representations for the task in question is doomed to failure.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- Just in the same way that the librarians think randomly chosen strings of symbols are about history or their lives, I like to think The Library of Babel is really about AI.
+ --&gt;
+
+&lt;!-- A perennial criticism first of [connectionism]( link) and now of modern statistical AI as used in machine translation, is that it does not engage with the correct level of abstraction, namely the *meanings* of the sentences it translates. --&gt;
+
+&lt;!-- For instance, critics regularly complain that neural machine translation systems don&#39;t manipulate representations of syntactic or semantic structure and as such, are just a sort of data-driven hack. --&gt;
+
+&lt;!-- The alternative they imagine is that the system first translates the target sentence into an abstract meaning, maybe represented in first order logic, and then back out again into another language. --&gt;
+
+&lt;!-- then doing some finagling AT THIS LEVEL OF ABSTRACTION --&gt;
+
+&lt;!-- A word for this, coined by Douglas Hofstadter (the second neologism, as promised) is sphexishness. This describes the &#34;algorithm&#34; of the Sphex wasp when preparing food for its young. In short, &#34;the wasp&#39;s routine is to bring the paralyzed cricket to the burrow, leave it on the threshold, go inside to see that all is well, emerge, and then drag the cricket in. If the cricket is moved a few inches away while the wasp is inside making her preliminary inspection, the wasp, on emerging from the burrow, will bring the cricket back to the threshold, but not inside, and will then repeat the preparatory procedure of entering the burrow to see that everything is all right.&#34; -(*Gödel, Escher, Bach*). --&gt;
+
+&lt;!-- Although subsequently the biological facts have turned out to be more nuanced, the original example is still useful. The point is that the wasp&#39;s algorithm works just fine in normal circumstances, but needlessly repeats the burrow-checking step when one element of its routine is altered. It doesn&#39;t really understand the meaning of its actions, because if it did, it would act differently. In other words, *this extensional failing is taken to indicate an intensional problem with the wasp&#39;s algorithm*. --&gt;
+
+&lt;!-- *Sphexish* is the perfect word to describe the librarians&#39; method of answering questions about the world. And machine learning, according to some, has the same failing: it works in a certain subset of cases, but by dint of not engaging with meaning, will fail - it&#39;s claimed - when meaning is required. A standard example is a Winograd schema: --&gt;
+
+&lt;!-- in order to translate this correctly, you have to identify which group &#34;they&#34; refers to, which requires you to know that --&gt;
+
+&lt;!-- It&#39;s worth pointing out that Winograd schemas aren&#39;t exactly the Achilles&#39; heel they&#39;re posed as for neural machine translation - for instance, see  LINK --&gt;
+
+&lt;!-- but it&#39;s easy to sympathise with the critics: it just *seems wrong* to not engage with the appropriate abstractions in favour of training systems on swathes of inherently meaningless data, like books in the library of Babel. --&gt;
+
+&lt;h3 id=&#34;that-said&#34;&gt;That said.&lt;/h3&gt;
+
+&lt;p&gt;I think you&amp;rsquo;d be wrong to agree with this version of Klaus. Nor indeed do I think the above is a good moral as regards modern statistical AI.&lt;/p&gt;
+
+&lt;p&gt;I can&amp;rsquo;t really do justice to why I think that without a much longer digression, but the general gist of it is that representations and/or meanings in cognition aren&amp;rsquo;t at all what they seem. Form and meaning are weirdly inextricable.&lt;/p&gt;
+
+&lt;p&gt;This is a sentiment that you can definitely feel in &lt;em&gt;Gödel, Escher, Bach&lt;/em&gt; (although Douglas Hofstadter definitely isn&amp;rsquo;t a proponent of modern machine translation) and in bits and pieces of philosophy from Hume to Quine.&lt;/p&gt;
+
+&lt;p&gt;If I had to improve on Klaus&amp;rsquo; moral of the &lt;em&gt;Library of Babel&lt;/em&gt;, he would utter something a bit more long winded:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;meaning is never a property of objects independent of their contexts, no matter how strongly it might seem to be, and if we assume it is, we will end up trying to build impossible systems which attempt to explicitly represent concepts which in truth should be merely &lt;em&gt;explanations&lt;/em&gt; of these systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;some-caveats-and-endnotes&#34;&gt;Some caveats and endnotes:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I&amp;rsquo;ve been using &amp;ldquo;meaning&amp;rdquo;, &amp;ldquo;intension&amp;rdquo;, &amp;ldquo;abstraction&amp;rdquo; and &amp;ldquo;representation&amp;rdquo; somewhat interchangeably. I&amp;rsquo;m of the mind that these are words approximating the same idea, just from different perspectives, but of course, in particular technical contexts that&amp;rsquo;s not always true.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- I don&#39;t think it&#39;s a good moral because the problem with the librarians is not that they&#39;re sphexish. In fact, I don&#39;t think sphexishness is a problem at all. --&gt;
+
+&lt;!-- Their problem is that they are committed to the misguided assumption that meaning is a thing books just *have*, rather than a thing books have in the context of an interpretation. --&gt;
+
+&lt;ol&gt;
+&lt;li&gt;You might wonder, reading this slightly weird hagiography of Borges, whether I really believe his stories are &lt;em&gt;about&lt;/em&gt; intensionality and meaning. Avoiding the obvious answer that &lt;em&gt;The Library of Babel&lt;/em&gt; exists to problematize aboutness (i.e. intensionality, i.e. meaning), I think this is an emphatic yes. I also think they demonstrate how effective it is to do philosophy by parable, a moral which philosophers like Daniel Dennett have taken up with aplomb.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- # Borgesification Elsewhere --&gt;
+
+&lt;!-- Borgesification is everywhere in Borges. Another story, **Pierre Menard, Author of the Quixote** is a borgesification of the idea that writing is just a changing of the context of a previous text. *Funes the Memorious*  CHECK is a borgesification of  --&gt;
+
+&lt;!-- MAYBE DROP ALL OF THE SECOND ONE
+Philosophical Idea 2: Pierre Menard
+
+creativity is recontextualisation
+
+AI spin?? :
+
+(when you&#39;re unsure what to do, remember this as your destination: borges&#39; idea of inventing an author/meaning is like a virtual object, and all objects are virtual. make the connection abundantly clear)
+
+Postmodern strains of thought often take interest
+    in the notion that the meaning of texts (writ broad)
+        are not fixed in the texts themselves, but are continually recreated by succesive authors&#39; usage of those texts
+
+        Thus two authors can express the same idea but have it be understood differently...??
+
+        also: forms are necessary
+    or: none of the meaning is natural to the text itself
+or more precisely: texts that are conceptually the same can differ by context NOT QUITE
+the idea that writing is really just recontextualisation of past texts:
+for example, Catullus writes a poem
+    remarkably similar to:
+        ...
+        is this good example?
+
+This radical idea builds on the difficulty in separating the meaning of a text from the process of interpretation.
+    to what degree is blah Blah and to what degree is its blahness a result of our interpretation
+
+    most radical: nothing in text at all
+
+
+
+Borgesification:
+
+Finally my favourite.
+
+story: pierre menard...
+
+Pierre Menard is a poet totally devoted to creating original work, but his magnum opus is a word for word copy of Don Quixote.
+    Borges goes into great detail pointing about how...
+
+    quotes:
+
+        The Cervantes text and the Menard text are verbally identical, but the second is almost infinitely richer. `..truth, whose mother is hostiry, rival of time, depository of deeds...&#34;: written by the &#34;ingenious layman&#34; miguel de Cervantes, is mere rhetorical praise of history, [but for menard]: History, the mother of truth! - the idea is straggering. Menard, a contemporary of William James, defines history not as a delving into reality but as the ery fount of reality.The contrast in styles...
+
+AH: (quix X context1) vs (quix X context2): tensor product
+
+
+point here:
+I&#39;m also thinking of his imagined poet, Pierre Menard, who copies Don Quixote word for word, in order to produce an entirely original text.
+
+in this case, the philosophical point in the background is that
+
+
+but which are only fantasy by virtue of taking a philosophical idea to an overliteral extreme:
+
+
+he even admits it: fantasy quote
+
+Borgesification without Borges:
+
+Borgesification is pretty ubiquitous
+both as a technique in literature
+and a genuine fallacy in philosophy
+
+for the former,
+    in one of many excellent Series of Unfortunate Events (surely the most postmodern children&#39;s books ever written), there is a door that can only be unlocked by entering on a keyboard the central theme of Anaa Karenina
+        this, is &#34;is that a rural life of moral simplicity, despite its monotony, is the preferable personal narrative to a daring life of impulsive passion, which only leads to tragedy.&#34;
+
+    This is a borgesification, because while Anna Karenina might indeed have a central theme, the premise of this situation is that the precise wording Klaus provides is somehow
+        is that the door requires to be provided a particular point in the sentence space, not the idea space
+
+    precise wording is surely not derivable
+
+        search space of ideas: choose idea
+        requires: search space of words
+
+This sort of confusion between high level ideas (like
+) and low level ones is
+
+for the latter, I think that the view that free will has anything to do with the physical world&#39;s being determined or not, is really a fallacy of borgesification
+
+
+Ovid loves borgesification.
+EXAMPLE:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&#34;The idealists argue that the hexagonal rooms are a necessary form of absolute space or, at least, of our intuition of space. They reason that a triangular or pentagonal room is inconceivable.&#34;
+
+&#34;(I know of an uncouth region whose librarians repudiate the vain and superstitious custom of finding a meaning in books and equate it with that of finding a meaning in dreams or in the chaotic lines of one’s palm . . . They admit that the inventors of this writing imitated the twenty-five natural symbols, but maintain that this application is accidental and that the books signify nothing in themselves. This dictum, we shall see, is not entirely fallacious.)&#34;
+
+&#34;From these two incontrovertible premises he deduced that the Library is total and that its shelves register all the possible combinations of the twenty-odd orthographical symbols (a number which, though extremely vast, is not infinite) that is, everything it is given to express: in all languages. Everything: the minutely detailed history of the future, the archangels’ autobiographies, the faithful catalogues of the Library, thousands and thousands of false catalogues, the demonstration of the fallacy of those catalogues, the demonstration of the fallacy of the true catalogue, the Gnostic gospel of Basilides, the commentary on that gospel, the commentary on the commentary on that gospel, the true story of your death, the translation of every book in all languages, the interpolations of every book in all books, the treatise that Bede could have written (and did not) about the mythology of the Saxons, the lost works of Tacitus.&#34;
+
+&#34;When it was proclaimed that the Library contained all books, the first impression was one of extravagant happiness. All men felt themselves to be the masters of an intact and secret treasure. There was no personal or world problem whose eloquent solution did not exist in some hexagon. The universe was justified, the universe suddenly usurped the unlimited dimensions of hope. At that time a great deal was said about the Vindications: books of apology and prophecy which vindicated for all time the acts of every man in the universe and retained prodigious arcana for his future. Thousands of the greedy abandoned their sweet native hexagons and rushed up the stairways, urged on by the vain intention of finding their Vindication. &#34;
+
+information theoretic point that if everything is meaningful, nothing is meaningful
+
+possible worlds semantics
+textual variants: how do you represent a book?
+
+basically the question of deciding whether there is an intentional author
+
+dennett and questions of semantics:
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Medieval Type Theory</title>
+      <link>https://reubenharry.github.io/blog/medieval-type-theory/</link>
+      <pubDate>Thu, 22 Jun 2017 21:33:50 +0100</pubDate>
+      <guid>https://reubenharry.github.io/blog/medieval-type-theory/</guid>
+      <description>&lt;p&gt;This post definitely falls under philosophical miscellanea, but is a nice example of a commonality between ancient and modern philosophy.&lt;/p&gt;
+
+&lt;p&gt;Sextus Empiricus, medieval skeptic, wrote a big (not Aquinas big, but definitely David Foster Wallace big) treatise on Pyrrhonism, a brand of radical skepticism which argues (more or less) that nothing is knowable. More specifically, Empiricus - aptly or inaptly named, I&amp;rsquo;m not sure - rejects &lt;em&gt;dogma&lt;/em&gt; (roughly, scientific knowledge).&lt;/p&gt;
+
+&lt;p&gt;This runs into hot or at least lukewarm water soon enough, since, as the Pyrrhonists are quick to realise, that for P = &amp;ldquo;Dogma is unknowable.&amp;rdquo;, if one knows it, it&amp;rsquo;s false, thus refuting the whole thesis.&lt;/p&gt;
+
+&lt;p&gt;Empiricus&amp;rsquo; solution is to offer two notions of dogma: narrow and broad. One must reject narrow dogma, but the rejection of narrow dogma (i.e. P=&amp;ldquo;Narrow dogma is unknowable.&amp;rdquo;) is a broad dogma, and that&amp;rsquo;s totally fine to keep.&lt;/p&gt;
+
+&lt;p&gt;Jump to Russell, and his famous paradox as to whether to set of all sets that don&amp;rsquo;t contain themselves contains itself. One solution, Russell&amp;rsquo;s, is to have a hierarchy of types. Type 1 sets can&amp;rsquo;t contain type 1 sets, but type 2 sets can (and so on for type 3 containing 2, etc). This eliminates the paradox.&lt;/p&gt;
+
+&lt;p&gt;Empiricus&amp;rsquo; solution to self-refutation is Russell&amp;rsquo;s solution to Russell&amp;rsquo;s paradox, &lt;em&gt;mutatis mutandis&lt;/em&gt;. Granted, you have to &lt;em&gt;mutatis&lt;/em&gt; a little bit of &lt;em&gt;mutandis&lt;/em&gt;, but underlyingly, it&amp;rsquo;s the same self-refuting paradox and the same type-based solution.&lt;/p&gt;
+
+&lt;p&gt;In actual fact, Empiricus doesn&amp;rsquo;t just give this one solution, but in a manner typical of rambling ancient philosophers, throws in a whole bunch to see what sticks, including the idea that the contradiction inherent in knowing that everything is unknowable is actually okay, and is like taking an emetic which purges the system. Nice and graphic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Proofs, Refutations and Zombies</title>
+      <link>https://reubenharry.github.io/blog/proofs-refutations-and-zombies/</link>
+      <pubDate>Sat, 20 Aug 2016 15:10:55 -0400</pubDate>
+      <guid>https://reubenharry.github.io/blog/proofs-refutations-and-zombies/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;There is strictly speaking no such thing as mathematical proof; we can, in the last analysis, do nothing but point; &amp;hellip;proofs are rhetorical flourishes designed to affect psychology&amp;rdquo; - Hardy&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Other thought experiments are less rigorous but often just as effective: little stories designed to provoke a heartfelt, table thumping intuition - &amp;ldquo;Yes of course, it has to be so&amp;rdquo; - about whatever thesis is being defended&amp;rdquo; - Dennett&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Somewhat inspired by Jacob Andreas&amp;rsquo; note-form &lt;a href=&#34;http://blog.jacobandreas.net/translation-meaning.html&#34;&gt;posts on philosophers&lt;/a&gt;, I wanted to jot down what I&amp;rsquo;m taking away from reading Lakatos&amp;rsquo; &lt;em&gt;Proof and Refutation&lt;/em&gt; (the above title being a reference not just to &lt;a href=&#34;https://www.amazon.com/Pride-Prejudice-Zombies-Quirk-Classic/dp/1511336188&#34;&gt;this&lt;/a&gt;, but also to &lt;a href=&#34;https://en.wikipedia.org/wiki/Philosophical_zombie&#34;&gt;philosophical zombies&lt;/a&gt; which are humans extensionally but not intensionally. Lakatos explores the equally tricky, and I think closely related issue of the extensional and intensional notions of proof, though not in those words.)&lt;/p&gt;
+
+&lt;p&gt;The book is noteworthy in two ways: first, it convincingly points out that the default conception of mathematical proofs as well-defined formal objects doesn&amp;rsquo;t at all capture the notion of proof as used, which is more like a way of thinking about a problem. Lakatos pushes this point to the extent of saying that a proof can fail to prove what it sets out to and still be a proof - in fact, from his perspective, establishing truth is not the point; proofs exist to establish structure.&lt;/p&gt;
+
+&lt;p&gt;The book is also noteworthy in its dialectic style; the argument is set up as a dialogue between a teacher and a classroom-full of students, and their discussion parallels the dialogues that took place over the course of mathematical history, as explained in the footnotes.&lt;/p&gt;
+
+&lt;!-- I read it through the lens of my own anti-representationalist sensibilities --&gt;
+
+&lt;p&gt;Lakatos does an amazing job of diving into the mathematical detail, while staying intelligible (inevitably, half of the effort in teaching is finding just the right sort of examples for a good exposition of an idea).&lt;/p&gt;
+
+&lt;p&gt;The following are basically just chapter-by-chapter notes on the book - nothing particularly synthesized - so this will expand as and when I move through the rest of the book.&lt;/p&gt;
+
+&lt;h1 id=&#34;chapter-1&#34;&gt;Chapter 1&lt;/h1&gt;
+
+&lt;p&gt;This chapter seems to constitute a sort of Socratic attack on the &amp;ldquo;dogma&amp;rdquo; that proofs are mathematical or logical objects.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Many working mathematicians are puzzled about what proofs are for if they do not prove. On the one hand, they know from experience that proofs are fallible but on the other hand they know from their dogmatist indoctrination that &lt;em&gt;genuine&lt;/em&gt; proofs must be infallible. &lt;em&gt;Applied mathematicians&lt;/em&gt; usually solve this dilemma by a shamefaced but firm belief that the proof of the &lt;em&gt;pure mathematicians&lt;/em&gt; are &amp;lsquo;complete&amp;rsquo;, and so &lt;em&gt;really&lt;/em&gt; prove. Pure mathematicians, however, know better - they have such respect only for the &amp;lsquo;complete proofs&amp;rsquo; for &lt;em&gt;logicians&lt;/em&gt;. If asked what is then the use, the function, of their &amp;lsquo;incomplete&amp;rsquo; proofs&amp;rsquo;, most of them are at a loss.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lakatos exemplifies this point by careful examination of Euler&amp;rsquo;s formula (V−E+F=2). As shown in a series of careful proofs and refutations of the claim that polyhedra&amp;rsquo;s vertices (V), edges (E) and faces (F) obey V-E+F=2, it&amp;rsquo;s hard to nail down what exactly what a particular proof is a proof of.&lt;/p&gt;
+
+&lt;p&gt;Given a counterexample to V−E+F=2 in the form of a weird looking polyhedron, one student&amp;rsquo;s response is &lt;em&gt;monster-barring&lt;/em&gt;: ruling that this counterexample isn&amp;rsquo;t a &lt;em&gt;real&lt;/em&gt; polyhedron in the sense meant by the proof.&lt;/p&gt;
+
+&lt;p&gt;On the one hand, this move is clearly unfalsifiable, but on the other, reflects the intuition that the counterexample misses the essence of the proof.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Delta&amp;rsquo;s main mistake is perhaps his dogmatist bias in the interpretation of mathematical proof: he thinks that a proof necessarily proves what it has set out to prove. My interpretation of proof will allow for a &lt;em&gt;false&lt;/em&gt; conjecture to be &amp;ldquo;proved&amp;rdquo; .&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lakatos moves towards a technique where, rather than monster-barring, one identifies which lemmas in the proof lead to the failure (this can be subtle), and change those steps so that the core nature of the proof remains intact.&lt;/p&gt;
+
+&lt;h3 id=&#34;proof-as-explanation&#34;&gt;Proof as Explanation&lt;/h3&gt;
+
+&lt;p&gt;As Lakatos sees it (here I&amp;rsquo;m making the assumption that his position is represented by the teacher), a proof is not about truth, but rather, is the insight allowing a problem to be deconstructed into a particular set of lemmas. In this sense, a proof is more like an explanation.&lt;/p&gt;
+
+&lt;p&gt;When the &lt;a href=&#34;https://en.wikipedia.org/wiki/Four_color_theorem&#34;&gt;four colour theorem&lt;/a&gt; was proven, many mathematicians were disappointed by the nature of the proof (in large part just a brute force case by case proof done by a computer) because it didn&amp;rsquo;t afford any insight. It&amp;rsquo;s interesting to compare this to the disappointment of traditional AI researchers in machine learning methods for tasks like translation, which perform their task without giving insight into any sort of internal process involved.&lt;/p&gt;
+
+&lt;p&gt;This raises a natural connection to algorithms and the notion of modularity:
+(there&amp;rsquo;s a much more precise connection between algorithms and proofs stemming from the Curry-Howard correspondence - this is more like an informal side note to that.). Thinking about traditional approaches to cognition (e.g. Marr), a key idea is that the mind performs computations which can be understood by identifying their subparts. (Early efforts in AI reflect a now naive seeming optimism about the degree of modularity). Likewise for Lakatos, proofs break problems down into lemmas (of which counterexamples may refute all or only part).&lt;/p&gt;
+
+&lt;p&gt;And the skepticism Lakatos has about proofs as formal objects reminds me of Dennett&amp;rsquo;s skepticism about intentions, among other things: regarding a chess playing computer, we may say things like &amp;ldquo;it&amp;rsquo;s trying to get the queen out; that&amp;rsquo;s why it made that move&amp;rdquo;. This is a modularization of its strategy, breaking it into two (further sub-dividable) lemmas (first: get queen out, then: win).&lt;/p&gt;
+
+&lt;p&gt;On the Dennettian view (at least based on my scant reading) the chess player&amp;rsquo;s algorithm is fundamentally an explanatory concept (with a complex connection to the actual program), just as a proof of a proposition is an explanation (with a complex connection to the &lt;em&gt;formal&lt;/em&gt; proof of the proposition), not a guarantee of truth.&lt;/p&gt;
+
+&lt;p&gt;I also wonder if proofs can be both formal and explanatory. I&amp;rsquo;m thinking particularly of diagrammatic proofs, as have become popular for category theory - this excellent series of blog posts is one example: &lt;a href=&#34;https://graphicallinearalgebra.net/&#34;&gt;https://graphicallinearalgebra.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+
+&lt;p&gt;Hidden in the footnotes, there are references to Skepticism; Lakatos cites &lt;a href=&#34;https://reubenharry.github.io/blog/medieval-type-theory/&#34;&gt;Sextus Empiricus&lt;/a&gt;, for example, and frequently uses the term &lt;em&gt;dogmatist&lt;/em&gt; which I assume he gets from Empiricus too.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Informativity and Galois Connections</title>
+      <link>https://reubenharry.github.io/blog/informativity-and-galois-connections/</link>
+      <pubDate>Fri, 26 Jun 2015 17:07:24 +0100</pubDate>
+      <guid>https://reubenharry.github.io/blog/informativity-and-galois-connections/</guid>
+      <description>
+
+&lt;script type=&#34;text/javascript&#34; async
+  src=&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML&#34;&gt;
+&lt;/script&gt;
+
+&lt;p&gt;Here is an elementary observation (I mean &amp;ldquo;elementary&amp;rdquo; in the sense mathematicians sometimes use it: i.e. straightforward if you already understand it, otherwise gibberish) that I talked about at MIT&amp;rsquo;s &lt;a href=&#34;http://brendanfong.com/seminar.html&#34;&gt;category theory seminar&lt;/a&gt;, relating &lt;a href=&#34;http://www.glottopedia.org/index.php/Gricean_maxims&#34;&gt;Grice&amp;rsquo;s maxims of Quantity and Quality&lt;/a&gt; to the mathematical notion of a Galois connection.&lt;/p&gt;
+
+&lt;h3 id=&#34;inscrutable-summary&#34;&gt;Inscrutable Summary:&lt;/h3&gt;
+
+&lt;p&gt;For a state space W, the left adjoint of a monotone map (i.e. a left Galois connection), \(L_0\), from a set of utterances U to the poset (ordered by inclusion) \(\mathcal{P}(W)\) is the monotone map \(S_1: \mathcal{P}(W)\to U\) which takes a set of states and returns the strongest true utterance with respect to \(L_0\). This happens to be a very natural way to encode Grice&amp;rsquo;s maxims of Quality (roughly: speak truthfully) and Quantity (roughly: be as informative as possible, relative to what is relevant) simultaneously.&lt;/p&gt;
+
+&lt;h3 id=&#34;scrutable-explanation&#34;&gt;Scrutable Explanation:&lt;/h3&gt;
+
+&lt;p&gt;Each \(w \in W\) is a state of the world, or, so that each element of \(\mathcal{P}(W)\) is a set of states.&lt;/p&gt;
+
+&lt;p&gt;As usual, the simplest possible example is a reference game, where &amp;ldquo;state&amp;rdquo; just means the intended referent. Concretely, say that W = \(\{R_1, R_2, R_3\}\) as pictured below, and U = {&lt;em&gt;red dress&lt;/em&gt;, &lt;em&gt;dress&lt;/em&gt;, &lt;em&gt;hat&lt;/em&gt;, &lt;em&gt;silence&lt;/em&gt;}. Obviously arbitrary choices, but just for illustration.&lt;/p&gt;
+
+&lt;figure &gt;
+&lt;img src=&#34;https://reubenharry.github.io/img/referents.png&#34;  width=&#34;747&#34; height=&#34;297&#34;&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Say that the literal listener \(L_0\) maps an utterance &lt;em&gt;u&lt;/em&gt; to the set of referents (i.e. states, i.e. worlds) compatible with &lt;em&gt;u&lt;/em&gt;, mapping &lt;em&gt;red dress&lt;/em&gt; to \(\{R_1\}\), &lt;em&gt;dress&lt;/em&gt; to \(\{R_1, R_2\}\) , &lt;em&gt;hat&lt;/em&gt; to \(\{R_3\}\) and &lt;em&gt;silence&lt;/em&gt; to \(\{R_1, R_2, R_3\}\).&lt;/p&gt;
+
+&lt;p&gt;Note that we can make U a poset by defining the partial ordering on U where \(u \leq u&amp;rsquo; \leftrightarrow L_0(u) \leq L_0(u&amp;rsquo;)\). For example, \(\mathit{dress} \leq \mathit{silence}\). Note that \(u \leq u&amp;rsquo;\) means that u is &lt;em&gt;stronger&lt;/em&gt; than u&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;It then follows (by the definition of the ordering on U) that \(L_0\) is a monotone map (i.e. a function that preserves the poset ordering) from U to W.&lt;/p&gt;
+
+&lt;h3 id=&#34;galois-connections&#34;&gt;Galois Connections&lt;/h3&gt;
+
+&lt;!-- The idea of a Galois connection (I think invented by Galois in his proof that there&#39;s no general formula for quintic equations) --&gt;
+
+&lt;p&gt;So far just definitions. Just one more: for monotone maps f and g, f is the left Galois connection of g iff:&lt;/p&gt;
+
+&lt;p&gt;$$f(s) \leq u \leftrightarrow s \leq g(u)$$&lt;/p&gt;
+
+&lt;p&gt;It takes a bit of thinking to make sense of this strange definition, but the intuition is this: there&amp;rsquo;s no obvious notion of an exact inverse of g, because g might well not be surjective (or injective). But for a monotone map, there&amp;rsquo;s a notion of the best approximation of such an inverse. That approximation is f, as defined above. (In fact there are two, the left and right Galois connections, and more broadly, the left and right adjoints of a functor. A monotone map is a very simple case of a functor between very simple categories, namely posets).&lt;/p&gt;
+
+&lt;p&gt;Maybe this direct corollary of the above definition will help: if I know g, then its left adjoint f is defined as:&lt;/p&gt;
+
+&lt;p&gt;$$f(s) = \bigwedge(\{u : s \leq g(u)\})$$.&lt;/p&gt;
+
+&lt;p&gt;I write \(\bigwedge(X)\) for a poset X to mean the greatest lower bound of X.&lt;/p&gt;
+
+&lt;p&gt;OK, so now you can ask: what&amp;rsquo;s the left Galois connection of the literal listener \(L_0\)? Let&amp;rsquo;s call this left Galois connection \(S_1\), for reasons that will soon be clear. Again, note that \(L_0\) can&amp;rsquo;t just be inverted, because it&amp;rsquo;s in general not the case that for any subset s of W (i.e. element of \(\mathcal{P}(W)\)), there&amp;rsquo;s an expression which means exactly s under \(L_0\).&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s illustrative to work through an example, to see what \(S_1\) looks like. Using our case from above, what&amp;rsquo;s \(S_1(\{R_2\})\)?&lt;/p&gt;
+
+&lt;p&gt;Well, \(S_1(\{R_2\}) = \bigwedge\{u : \{R_2\} \leq L_0(u)\})\) = \(\bigwedge(\{dress, silence\})\) = \(dress\).&lt;/p&gt;
+
+&lt;p&gt;First you find all the utterances that map to supersets of \(\{R_2\}\). These are all the true utterances (&lt;em&gt;Quality&lt;/em&gt;). Then you take the greatest lower bound (&lt;em&gt;Quantity&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;So in other words, the definition of an left Galois connection gives you the following informative speaker \(S_1\): consider the set of all utterances compatible with your (possibly singleton) set of worlds, and choose the strongest of these. There&amp;rsquo;s something nice about how the maxims of Quality and Quantity fall out from this.&lt;/p&gt;
+
+&lt;!-- That&#39;s \\(\\{dress, silence\\}\\). Then you take the greatest lower bound.  --&gt;
+
+&lt;!-- The notion of &#34;Galois connection&#34; formalizes &#34;best approximation of the inverse of a monotone map between posets&#34;. (More abstractly, a Galois connection is a kind of adjoint functor, but that&#39;s by the by.) --&gt;
+
+&lt;p&gt;We also obtain similar results for pragmatic implicatures (that I won&amp;rsquo;t sketch out here for reasons of laziness) namely that a literal speaker, in the form of a monotone map \(S_0\) from w \(\in\) W to &lt;em&gt;us&lt;/em&gt; in \(\mathcal{P}(U)\), admits a left Galois connection \(L_1\) which returns the exhaustification (linguistics term) of the literal meaning of &lt;em&gt;us&lt;/em&gt;. So this would model, for example, the fact that the pragmatic interpretation of a (possibly singleton) set of utterances &lt;em&gt;us&lt;/em&gt; should give the smallest set of possible worlds that could have produced every \(u \in \mathit{us}\).&lt;/p&gt;
+
+&lt;p&gt;The niceness of this correspondence between Galois connections and pragmatics suggests that something relatively deep is going on here, but I haven&amp;rsquo;t thought about it too much further. The sensible thing to do would be to consider the categorical generalization of Galois connections, namely adjoint functors, and to see if we get the same effect when we invert a more sophisticated functorial semantics.&lt;/p&gt;
+
+&lt;p&gt;I came up with this idea thanks to John Baez&amp;rsquo;s fantastic &lt;a href=&#34;https://forum.azimuthproject.org/categories/applied-category-theory-course&#34;&gt;category theory course&lt;/a&gt;, based off of David Spivak and Brendan Fong&amp;rsquo;s &lt;em&gt;&lt;a href=&#34;http://math.mit.edu/~dspivak/teaching/sp18/7Sketches.pdf&#34;&gt;Seven Sketches in Compositionality&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Summary:&lt;/p&gt;
+
+&lt;p&gt;*An informative speaker is a left Galois connection to a literal listener&lt;/p&gt;
+
+&lt;p&gt;*A pragmatic listener is a left Galois connection to a literal speaker&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
